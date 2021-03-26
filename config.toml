@@ -31,8 +31,8 @@ paginate = 10
   post = "/:section/:filename/" # Custom post links, e.g. "/:year/:month/:title/"
 
 [params]
-  author = "DSRKafuU" # You can also set author in post front matter individually
-  subTitle = "A minimal Hugo theme."
+  author = "coleenhuang" # You can also set author in post front matter individually
+  subTitle = "Though I still want some more"
 
   # Source URL of the website, will appear in the footer
   sourceURL = "https://github.com/itsme/my_blog"
@@ -139,11 +139,4 @@ paginate = 10
     name = "GitHub"
     url = "https://github.com/dsrkafuu"
     weight = 1
-  [[menu.link]]
-    name = "Twitter"
-    url = "https://twitter.com/dsrkafuu"
-    weight = 2
-  [[menu.link]]
-    name = "bilibili"
-    url = "https://space.bilibili.com/19767474"
-    weight = 3
+  
