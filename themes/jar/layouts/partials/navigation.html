@@ -1,8 +1,0 @@
-<nav class="navigation">
-    {{ if not .IsHome }}
-    <a href="{{ "/" | relURL }}"> <span class="arrow">←</span>{{ with .Site.Params.home }}{{ . }}{{ else }}Home{{ end }}</a>
-    {{ end }}
-    <a href="{{ "/posts" | relURL }}">{{ with .Site.Params.archive }}{{ . }}{{ else }}Archive{{ end }}</a>
-    <a href="{{ "/tags" | relURL }}">{{ with .Site.Params.tags }}{{ . }}{{ else }}Tags{{ end }}</a>
-    <a href="{{ "/about" | relURL }}">{{ with .Site.Params.about }}{{ . }}{{ else }}About{{ end }}</a>
-</nav>

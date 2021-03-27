@@ -8,6 +8,14 @@ h1, h2, h3, h4, h5, h6 {
 .post-title a {
   text-decoration: none; }
 
+.sidebar-nav h3 {
+  text-align: center; }
+
+.sidebar-nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0; }
+
 * {
   box-sizing: border-box; }
 
@@ -20,6 +28,10 @@ body {
 .post {
   max-width: 700px;
   margin: 0 auto; }
+
+.flex-horizontal {
+  display: flex;
+  flex-direction: row; }
 
 a:hover {
   text-decoration: none !important; }

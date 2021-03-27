@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<meta charset="utf-8">
 {{ $scss := resources.Get "scss/main.scss" }}
 {{ $style := $scss | resources.ToCSS }}
 <link rel="stylesheet" href="{{ $style.Permalink }}">

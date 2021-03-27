@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html>
-    {{- partial "head.html" . -}}
-    
+    <head>
+        {{- partial "head.html" . -}}
+    </head> 
     <body>
         {{- partial "header.html" . -}}
-        {{ partial "navigation.html" . }}
-        <div id="content">
-        {{- block "main" . }}{{- end }}
-        </div>
+        <main aria-role="main" class="flex-horizontal">
+            <div id="content" >
+            {{- block "main" . }}{{- end }}
+            </div>
+            {{- partial "sidebar.html" . -}}
+        </main>
         {{- partial "footer.html" . -}}
         {{ partial "script.html" . }}
     </body>

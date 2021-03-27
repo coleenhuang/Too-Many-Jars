@@ -1,5 +1,6 @@
 @import "./fonts.scss";
 @import "./homepage.scss";
+@import "./sidebar.scss";
 
 * {
     box-sizing: border-box;
@@ -17,6 +18,12 @@ body {
     max-width: 700px;
     margin: 0 auto;
 }
+
+.flex-horizontal {
+    display: flex;
+    flex-direction: row;
+}
+
 
 a:hover {
     text-decoration: none !important;
