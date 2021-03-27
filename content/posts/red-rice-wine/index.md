@@ -7,6 +7,8 @@ tags: ["fermentation", "koji"]
 
 This originates from Fujian. The lees are a common cooking ingredient.
 
+![Jar of fermenting rice wine](./Red_Rice_Wine.jpg)
+
 ## Ingredients
 * 1200 g short grain sticky rice
 * 1200 g water

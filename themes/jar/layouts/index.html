@@ -1,0 +1,23 @@
+{{ define "main" }}
+    <main aria-role="main">
+      <header class="homepage-header">
+        <h1>{{.Title}}</h1>
+        {{ with .Site.Params.subtitle }}
+        <span class="subtitle">{{.}}</span>
+        {{ end }}
+      </header>
+      {{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
+        {{ range $paginator.Pages }}
+    <div class="post">
+        <h2 class="post-item post-title">
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+        </h2>
+        
+        <div class="post-item post-summary markdown-body">
+            {{ .Summary }}
+        </div>
+    </div>
+    {{ end }}
+    </main>
+{{ end }}
+
