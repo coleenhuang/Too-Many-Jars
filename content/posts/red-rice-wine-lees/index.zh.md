@@ -1,15 +1,15 @@
 ---
-title: "Red Rice Wine"
+title: "紅糟"
 date: 2021-03-25T14:48:52-07:00
 draft: false
-tags: ["fermentation", "koji"]
+tags: ["發酵", "麴"]
 ---
 
 This originates from Fujian. The lees are a common cooking ingredient.
 
 ![Jar of fermenting rice wine](./Red_Rice_Wine.jpg)
 
-## Ingredients
-* 1200 g short grain sticky rice
-* 1200 g water
-* 120 g red koji
+## 材料
+* 1200 g 圓糯米
+* 1200 g 水
+* 120 g 紅麴米

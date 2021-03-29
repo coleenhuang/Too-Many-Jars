@@ -3,6 +3,17 @@ title = "Too Many Jars"
 
 theme = "jar"
 
+defaultContentLanguage = "en"
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1
+  [languages.zh]
+    languageName = "中文"
+    weight = 2
+
+
 [params]
 subtitle = "But I still want more"
 mainSections = ["posts"]
