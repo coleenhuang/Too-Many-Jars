@@ -9,7 +9,7 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none; }
 
 .sidebar-nav h3 {
-  text-align: center; }
+  text-align: left; }
 
 .sidebar-nav ul {
   list-style-type: none;
